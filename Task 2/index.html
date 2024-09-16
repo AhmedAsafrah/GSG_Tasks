@@ -8,50 +8,54 @@
 </head>
 
 <body>
-    <header>
-        <h1>
-        Ahmed Asafrah
-        </h1>
 
-        <div>
-        <span>
-            Full Stack Developer - Programmer - Designer - Flutter Developer
-        </span>
-        <nav>
-            <a href="">About Me</a>
-            <a href="">Skills</a>
-            <a href="">Projects</a>
-            <a href="">Contact</a>
-        </nav>
+    <header id="main-header">
+
+        <div class="header-div">
+            <h1>
+                Ahmed Asafrah
+            </h1>
+            <span>
+                Full Stack Developer - Programmer - Designer - Flutter Developer
+            </span>
         </div>
+
+        <nav class="main-nav">
+            <a href="#first-section">About Me</a>
+            <a href="#seconed-section">Skills</a>
+            <a href="#third-section">Projects</a>
+            <a href="#fourth-section">Contact</a>
+        </nav>
+
     </header>
 
+
     <main>
-        <section>
-            <h2>
+        <section class="about-me">
+            <h2 id="first-section">
                 About Me
             </h2>
             <p>
                 My name is Ahmed Mohammed Asafrah, I am 21 years old. 
                 I am a software engineer, I have a passion for programming and I love to learn new technologies. 
                 I have a good experience in web development and I have worked on many projects.
-                I am a hard worker and I am always looking for new challenges.
             </p>
             <img 
                 src="imgs/about-me.jpg"
                 alt="About Me Picture"
-                width="250px"
-                height="200px">
+                width="180px"
+                height="180px"
+            >
 
             <div>
                 <p>
-                    <span> Task Management App </span> A task management application with features like task creation, categorization, and deadline tracking. Built using React and Firebase.
+                    <h3> Task Management App </h3> A task management application with features like task creation, categorization, and deadline tracking. Built using React and Firebase.
                 </p>
             </div>
         </section>
 
-        <section>
-            <h2>
+        <section class="skills">skills
+            <h2 id="seconed-section">
                 Skills 
             </h2>
             <nav>
@@ -65,8 +69,8 @@
             </nav>
         </section>
 
-        <section>
-            <h2>
+        <section class="projects">
+            <h2 id="third-section">
                 Projects
             </h2>
             <div>
@@ -90,8 +94,8 @@
             </div>
         </section>
 
-        <section>
-            <h2>
+        <section class="contact-me">
+            <h2 id="fourth-section">
                 Contact Me
             </h2>
             <p>
@@ -134,5 +138,7 @@
             </span>
         </div>
     </footer>
+
+    
 </body>
 </html>
