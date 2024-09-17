@@ -3,6 +3,10 @@ body {
     margin: 40px 100px;
     background-color:#f0f0f0;
 }
+
+h2 {
+    font-size: 30px;
+}
 #main-header {
     background-color: #383a39;
     border-radius: 6px;
@@ -74,11 +78,176 @@ section.about-me div{
     height: 260px;
     border-radius: 10px;
     left: 14%;
-    padding: 10px;
+    padding: 2px;
     font-size: 18px;
+    text-align: center;
 }
 
 section.about-me div h3{
     font-size: 28px;
     margin: 10px;
+}
+
+section.skills {
+    height: 170px;
+    border-radius: 10px;
+    padding:20px 20px;
+    background-image: url("imgs/Skills-for-resume-1.jpg");
+    color: white;
+}
+
+section.skills nav {
+    background-color: rgba(242, 244, 250, 0.9);
+    height: 80px;
+    border-radius: 10px;
+    padding-left: 190px;
+}
+
+section.skills div.skill {
+    background-color: #70da7e;
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 18px;
+    text-align: center;
+    padding: 8px;
+    margin: 20px 2px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+section.skills div.skill:hover {
+    background-color: #1dc434;
+    transform: translateY(-5px);
+}
+
+section.projects {
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 40px;
+    padding: 8px 40px;
+    
+}
+
+section.projects div.project div{
+    min-height: 240px ;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    position: relative;
+    left: 20px;
+}
+section.projects div.first-div { 
+    background-color: orange;
+    width: 230px;
+    margin-bottom: 40px;
+    padding: 1px 2px;
+}
+
+section.projects div.second-div {
+    background-color: rgb(22, 139, 228);
+    width: 230px;
+    padding: 1px 2px;
+} 
+
+section.projects div.third-div { 
+    position: relative;
+    background-color: #5a7085;
+    margin-bottom: 40px;
+    padding: 1px 2px;
+    width: 103%;
+}
+
+section.contact-me {
+    background-color: #f4f4f4;
+    box-shadow: 0px 1px 4px rgba(130, 143, 147, 0.5) inset;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+section.contact-me p {
+    font-size: 20px;
+    margin: 0;
+}
+
+section.contact-me h2 {
+    margin: 0;
+}
+
+section.contact-me div.form {
+    font-size: 20px;
+}
+
+
+
+section.contact-me div.form input[type="text"],
+section.contact-me div.form input[type="email"],
+section.contact-me div.form textarea {
+    width: 100%;
+    border-radius: 5px;
+    margin: 12px 0px;
+    border: 1px solid #ccc; 
+    box-shadow:  0 1px 3px rgba(0, 0, 0, 0.2);
+    
+}
+
+section.contact-me div.form input[type="text"],
+section.contact-me div.form input[type="email"] {
+    height: 30px;
+}
+
+section.contact-me div.form textarea {
+    height: 80px;
+}
+
+input, textarea {
+    padding-left: 2px; 
+    padding-top: 5px;   
+}
+
+section.contact-me div.form input[type="submit"] {
+    cursor: pointer;
+    width: 100px;
+    min-height: 44px;
+    border-radius: 5px;
+    color: #3cab4b;
+    font-size: 18px;
+    border: 2px solid #3cab4b;
+}
+
+section.contact-me div.form input[type="submit"]:hover {
+    background-color: #3cab4b;
+    color: white;
+    transition: .4s;
+}
+
+section.contact-me div.form input[type="text"]:focus, 
+section.contact-me div.form input[type="email"]:focus, 
+section.contact-me div.form textarea:focus {
+    border: 1px solid #1dc434;
+    outline: none; 
+}
+
+footer div {
+    font-size: 22px;
+    background-color: #383a39;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+footer div span{
+    position: relative;
+    left: 43%;
+    top: 25%;
+    color: white;
+}
+
+footer a {
+    color: #8e8236;
+}
+
+footer a:hover {
+    transition: .4s;
+    color: white;
 }
