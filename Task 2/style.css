@@ -46,12 +46,40 @@ div.header-div span {
 }
 
 nav.main-nav {
-
-    background-color: aqua;
-    position: sticky;
-    top: 20px;
-    z-index: 1000;
+    
+    font-size: 22px;
+    position: relative;
+    left: 35%;
+    top: 22%;
 }
+
+nav.main-nav a{
+    color: white;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+nav.main-nav a:hover {
+    color: #beaa23;
+    transition: .4s; 
+}
+
+a.go-top {
+    background-color: #1dc434;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+    position: fixed;
+    right: 25px;
+    bottom: 20px;
+    text-decoration: none;
+}
+
 
 section.about-me {
     background-color: white;
@@ -71,28 +99,13 @@ section.about-me img{
 }
 
 
-section.about-me div{
-    position: absolute;
-    background-color: rgb(133, 71, 150);
-    width: 250px;
-    height: 260px;
-    border-radius: 10px;
-    left: 14%;
-    padding: 2px;
-    font-size: 18px;
-    text-align: center;
-}
-
-section.about-me div h3{
-    font-size: 28px;
-    margin: 10px;
-}
-
 section.skills {
     height: 170px;
     border-radius: 10px;
     padding:20px 20px;
     background-image: url("imgs/Skills-for-resume-1.jpg");
+    background-position: center;
+    background-size:cover ;
     color: white;
 }
 
@@ -100,7 +113,7 @@ section.skills nav {
     background-color: rgba(242, 244, 250, 0.9);
     height: 80px;
     border-radius: 10px;
-    padding-left: 190px;
+    padding-left: 260px;
 }
 
 section.skills div.skill {
@@ -125,7 +138,7 @@ section.projects {
     border-radius: 10px;
     margin-top: 40px;
     padding: 8px 40px;
-    
+    position: relative;
 }
 
 section.projects div.project div{
@@ -133,24 +146,36 @@ section.projects div.project div{
     border-radius: 10px;
     text-align: center;
     font-size: 18px;
-    position: relative;
+    /* position: relative; */
     left: 20px;
 }
 section.projects div.first-div { 
+
+    background-color: #854796;
+    width: 220px;
+    border-radius: 10px;
+    position: absolute;
+    padding: 12px;
+    margin-left: 50px;
+    font-size: 18px;
+    position: absolute;
+    bottom: 1140px; 
+}
+section.projects div.second-div { 
     background-color: orange;
-    width: 230px;
+    width: 220px;
     margin-bottom: 40px;
-    padding: 1px 2px;
+    padding: 12px;
 }
 
-section.projects div.second-div {
+section.projects div.third-div {
     background-color: rgb(22, 139, 228);
-    width: 230px;
-    padding: 1px 2px;
+    width: 220px;
+    padding: 12px;
 } 
 
-section.projects div.third-div { 
-    position: relative;
+section.projects div.fourth-div { 
+    /* position: relative; */
     background-color: #5a7085;
     margin-bottom: 40px;
     padding: 1px 2px;
@@ -188,6 +213,7 @@ section.contact-me div.form textarea {
     margin: 12px 0px;
     border: 1px solid #ccc; 
     box-shadow:  0 1px 3px rgba(0, 0, 0, 0.2);
+    padding: 7px 13px;
     
 }
 
@@ -245,9 +271,12 @@ footer div span{
 
 footer a {
     color: #8e8236;
+    text-decoration: none;
 }
 
 footer a:hover {
     transition: .4s;
     color: white;
 }
+
+
