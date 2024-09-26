@@ -1,0 +1,149 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+nav.top-nav {
+    background-color: #686464;
+    height: 60px;
+}
+
+div.main {
+    margin: 40px;
+    min-height: 1000px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 80px;
+}
+
+.main .left-div {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-div .left-nav{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-nav .nav-divs {
+    display: flex;
+    column-gap: 20px;
+}
+.left-nav .nav-divs div{
+    width: 150px;
+    /* height: 60%; */
+    background-color: #c4c4c4;
+}
+
+.left-nav .nav-divs :first-child{
+    background-color: #686464;
+}
+.arrow {
+    font-size: 30px;
+    padding: 5px;
+    color: #a09c9c;
+}
+.left-div .empty-div{
+    background-color: #686464;
+    height: 450px;
+    margin-bottom: 50px;
+}
+
+.left-div .cards-div{ 
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 29px;
+    row-gap: 30px;
+}
+
+.cards-div .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+    width: 18%;
+    height: 250px;    
+} 
+
+.card .item{
+    background-color: #a09c9c;
+    width: 100%;
+    height: 70%;
+}
+
+.cards-div .card p{
+    font-weight: 500;
+    margin: 5px;
+}
+
+
+
+.main .right-div {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-div .right-nav{
+    height: 40px;
+    display: flex;
+    justify-content: end;
+    column-gap: 20px;
+}
+
+.right-div .right-nav div{
+    flex-basis: 40px;
+    height: 70%;
+    background-color: #c4c4c4;
+}
+
+.right-div .logo{
+    height: 450px;
+    background-color: #a09c9c;
+    margin-bottom: 50px ;
+}
+
+.right-div .content{ 
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.content .row-div{
+    height: 50px;
+    background-color: #686464;
+}
+
+
+.content .card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card .item-para{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.content .card .item{
+    min-width: 100px;
+    height: 100px;
+    background-color: #a09c9c;
+}
+
+.content .line{
+    background-color: #686464;
+    height: 10px;
+}
+
+
